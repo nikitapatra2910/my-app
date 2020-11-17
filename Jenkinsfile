@@ -7,7 +7,7 @@ node {
     // Clone repo
 	git branch: 'master', 
 	credentialsId: 'github', 
-	url: 'https://github.com/javahometech/myweb'
+	url: 'https://github.com/nikitapatra2910/myweb'
    
    }
    
@@ -45,7 +45,7 @@ node {
 							   Job Name: ${env.JOB_NAME}
 
 Thanks,
-DevOps Team""", cc: '', from: '', replyTo: '', subject: "${env.JOB_NAME} Success", to: 'hari.kammana@gmail.com'
+DevOps Team""", cc: '', from: '', replyTo: '', subject: "${env.JOB_NAME} Success", to: 'nikita.patra2910@gmail.com'
    
    }
 }
